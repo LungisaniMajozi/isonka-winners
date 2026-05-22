@@ -12,12 +12,9 @@ import Footer from "../components/Footer";
 
 const PRINT_IMG =
   "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=2070&auto=format&fit=crop";
-const BRAND_IMG =
-  "https://images.unsplash.com/photo-1531123897727-8f129e1bf98c?q=80&w=2070&auto=format&fit=crop";
-const AD_IMG =
-  "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2070&auto=format&fit=crop";
-const PROD_IMG =
-  "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2071&auto=format&fit=crop";
+const BRAND_IMG = "/images/branding.png";
+const AD_IMG = "/images/advertising.png";
+const PROD_IMG = "/images/production.png";
 const PRINT_BG =
   "https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop";
 

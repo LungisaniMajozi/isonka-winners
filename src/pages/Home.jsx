@@ -12,8 +12,7 @@ import Footer from "../components/Footer";
 
 const HERO_IMAGE =
   "https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop";
-const TEAM_IMG =
-  "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?q=80&w=2069&auto=format&fit=crop";
+const TEAM_IMG = "/images/people.png";
 const PRINT_IMG =
   "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=2070&auto=format&fit=crop";
 const PROD_IMG =
