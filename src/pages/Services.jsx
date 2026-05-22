@@ -15,8 +15,7 @@ const PRINT_IMG =
 const BRAND_IMG = "/images/branding.png";
 const AD_IMG = "/images/advertising.png";
 const PROD_IMG = "/images/production.png";
-const PRINT_BG =
-  "https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop";
+const PRINT_BG = "/images/printing.png";
 
 const services = [
   {

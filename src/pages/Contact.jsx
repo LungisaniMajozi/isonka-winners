@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Globe, Send, CheckCircle } from "lucide-react";
 import Footer from "../components/Footer";
 
-const MIDRAND_IMG =
-  "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=2070&auto=format&fit=crop";
+const MIDRAND_IMG = "/images/contact.png";
 
 const contactItems = [
   {
