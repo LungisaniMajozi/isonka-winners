@@ -128,7 +128,7 @@ export default function Home() {
               transition={{ duration: 1, delay: 0.65, ease: [0.16, 1, 0.3, 1] }}
               className="text-6xl sm:text-8xl lg:text-[9rem] font-inter font-black uppercase tracking-tighter leading-[0.85] text-accent"
             >
-              Winners
+              Media
             </motion.h1>
           </div>
           <motion.div
