@@ -29,7 +29,7 @@ export default function HeroSection({ heroImage }) {
         <div className="absolute left-3/4 top-0 bottom-0 w-px bg-foreground" />
       </motion.div>
 
-      <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-8 pb-20 lg:pb-32 pt-32">
+      <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-8 pb-20 lg:pb-32 pt-36 lg:pt-44">
         <motion.div
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -47,7 +47,7 @@ export default function HeroSection({ heroImage }) {
             initial={{ y: 120 }}
             animate={{ y: 0 }}
             transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
-            className="text-5xl sm:text-7xl lg:text-[7rem] xl:text-[9rem] font-inter font-black uppercase tracking-tighter leading-[0.85] text-foreground"
+            className="text-4xl sm:text-6xl lg:text-[5.5rem] xl:text-[7.5rem] font-inter font-black uppercase tracking-tighter leading-[0.85] text-foreground"
           >
             Isonka
           </motion.h1>
@@ -57,7 +57,7 @@ export default function HeroSection({ heroImage }) {
             initial={{ y: 120 }}
             animate={{ y: 0 }}
             transition={{ duration: 1, delay: 0.65, ease: [0.16, 1, 0.3, 1] }}
-            className="text-5xl sm:text-7xl lg:text-[7rem] xl:text-[9rem] font-inter font-black uppercase tracking-tighter leading-[0.85] text-foreground"
+            className="text-4xl sm:text-6xl lg:text-[5.5rem] xl:text-[7.5rem] font-inter font-black uppercase tracking-tighter leading-[0.85] text-foreground"
           >
             <span className="text-accent">Winners</span>
           </motion.h1>

@@ -52,7 +52,7 @@ export default function Contact() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative pt-40 pb-24 px-6 lg:px-8 overflow-hidden">
+      <section className="relative pt-40 lg:pt-48 pb-24 px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={MIDRAND_IMG}

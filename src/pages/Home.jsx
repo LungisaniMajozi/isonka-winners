@@ -100,7 +100,7 @@ export default function Home() {
           <div className="absolute left-1/2 top-0 bottom-0 w-px bg-foreground" />
           <div className="absolute left-3/4 top-0 bottom-0 w-px bg-foreground" />
         </motion.div>
-        <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-8 pb-24 lg:pb-40 pt-32">
+        <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-8 pb-24 lg:pb-40 pt-40 lg:pt-48">
           <motion.div
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}

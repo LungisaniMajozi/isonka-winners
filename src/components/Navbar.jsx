@@ -27,27 +27,15 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-      className={`fixed top-0 w-full z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-background/90 backdrop-blur-xl border-b border-border"
-          : "bg-transparent"
-      }`}
+      className="fixed top-0 w-full z-50 bg-transparent"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-5 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-3">
           <img
             src="/logo.png"
             alt="Isonka Winners Logo"
-            className="w-12 h-12 object-contain mix-blend-multiply"
+            className="w-28 h-28 lg:w-32 lg:h-32 object-contain mix-blend-multiply"
           />
-          <div className="flex flex-col">
-            <span className="text-foreground font-inter font-bold text-lg tracking-tight leading-none">
-              isonka<span className="text-accent">winners</span>
-            </span>
-            <span className="text-muted-foreground text-[10px] tracking-[0.2em] uppercase leading-none mt-0.5">
-              {"media & communication"}
-            </span>
-          </div>
         </Link>
 
         <div className="hidden md:flex items-center gap-10">

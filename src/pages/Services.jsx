@@ -108,7 +108,7 @@ export default function Services() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative pt-40 pb-24 px-6 lg:px-8 overflow-hidden">
+      <section className="relative pt-40 lg:pt-48 pb-24 px-6 lg:px-8 overflow-hidden">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.05 }}
