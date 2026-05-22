@@ -246,7 +246,7 @@ export default function Services() {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: 60, opacity: 0 }}
               transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-              className="max-w-5xl mx-auto px-6 py-20"
+              className="max-w-5xl mx-auto px-6 pt-40 lg:pt-48 pb-20"
               onClick={(e) => e.stopPropagation()}
             >
               <button
